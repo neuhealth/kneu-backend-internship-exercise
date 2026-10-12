@@ -35,13 +35,23 @@ We are not expecting a production-ready system. Instead, we are interested in:
 
 If you do not finish, please leave comments or notes explaining your thinking.
 
+## AI Tools are Encouraged
+
+Use them as you would on the job (Claude, ChatGPT, Copilot, Cursor or similar). We are interested in how you use them well:
+
+- Using them to understand unfamiliar code and concepts, not only to generate code
+- Checking what they produce by running it, testing it and questioning it
+- Owning the result: be ready to explain and change any line you submit
+
 ## Technical Stack
 
-- Java 21
-- Spring Boot
-- Spring Data JPA
-- PostgreSQL (via Docker)
-- Maven
+🌱 **You don't need prior experience with this stack, but we do expect you to be comfortable programming.** You should be able to write, debug and test code confidently in at least one language, such as Python, C#, or JavaScript. If you can, you'll be able to pick up what you need here as you go, and you won't be marked down for being new to these tools.
+
+- **Java 21**: the programming language. If you've used another language, such as Python, C# or JavaScript, the concepts carry over
+- **Spring Boot**: a framework that handles the web-server plumbing, so you write classes and annotate them
+- **Spring Data JPA**: lets you read and write database rows as Java objects, without writing SQL by hand
+- **PostgreSQL (via Docker)**: the database. It runs in Docker, so you don't need to install it yourself
+- **Maven**: the build tool. `./mvnw` downloads everything the project needs, so there's nothing extra to install
 
 ## Getting Started
 
